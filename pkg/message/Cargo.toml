@@ -1,0 +1,8 @@
+[package]
+name = "message"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mio = { workspace = true }
+sonic-rs = "0.5.3"

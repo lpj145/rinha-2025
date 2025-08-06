@@ -1,0 +1,10 @@
+[package]
+name = "load-balance"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mimalloc = { workspace = true }
+mio = { workspace = true }
+connection = { path = "../connection" }
+message = { path = "../message" }
